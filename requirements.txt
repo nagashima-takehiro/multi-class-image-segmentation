@@ -1,7 +1,8 @@
 ipython
 jupyter
+matplotlib
 pandas
 plotly
 pytest
-sklearn
+scikit-learn
 xgboost
