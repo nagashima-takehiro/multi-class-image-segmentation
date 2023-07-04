@@ -1,1 +1,7 @@
-flask
+ipython
+jupyter
+pandas
+plotly
+pytest
+sklearn
+xgboost
