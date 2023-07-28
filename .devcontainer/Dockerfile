@@ -12,11 +12,6 @@ RUN apt-get update \
     libmetis-dev \
     libsuitesparse-dev \
     libnauty2-dev \
+    libgl1-mesa-dev \
     && apt-get clean \
-    && rm -rf /var/lib/apt/lists/* \
-    && wget -nH https://raw.githubusercontent.com/coin-or/coinbrew/master/coinbrew \
-    && chmod u+x coinbrew \
-    && bash coinbrew fetch Cbc@master \
-    && bash coinbrew build Cbc@master --no-prompt --prefix=/usr/local --tests=none --enable-cbc-parallel
-ENV PMIP_CBC_LIBRARY="/usr/local/lib/libCbc.so"
-ENV LD_LIBRARY_PATH="/home/haroldo/prog/lib"
+    && rm -rf /var/lib/apt/lists/

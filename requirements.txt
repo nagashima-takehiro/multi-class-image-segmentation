@@ -1,3 +1,4 @@
+albumentations[imgaug]
 ipython
 jupyter
 matplotlib
@@ -5,4 +6,5 @@ pandas
 plotly
 pytest
 scikit-learn
-xgboost
+segmentation-models-pytorch
+torch
